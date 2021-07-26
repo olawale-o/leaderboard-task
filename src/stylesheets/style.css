@@ -14,6 +14,19 @@ body {
   font-size: 62.5%;
 }
 
+li {
+  list-style: none;
+  font-size: 2rem;
+}
+
+li:nth-child(odd) {
+  background: #fff;
+}
+
+li:nth-child(even) {
+  background: #eee;
+}
+
 .nav {
   width: 100%;
   max-width: 76rem;
