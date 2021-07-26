@@ -5,6 +5,7 @@ const createScorePanelHeader = () => {
   const button = document.createElement('button');
   button.setAttribute('class', 'btn');
   button.setAttribute('id', 'refresh-score');
+  button.textContent = 'Refresh';
   header.append(h2, button);
 };
 
