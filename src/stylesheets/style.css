@@ -17,6 +17,7 @@ body {
 li {
   list-style: none;
   font-size: 2rem;
+  text-transform: capitalize;
 }
 
 li:nth-child(odd) {
