@@ -9,7 +9,8 @@
     "watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint .",
-    "stylelint": "stylelint \"**/*.{css,scss}\""
+    "stylelint": "stylelint \"**/*.{css,scss}\"",
+    "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
