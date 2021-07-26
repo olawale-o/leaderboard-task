@@ -17,6 +17,7 @@ const updateDomWithScores = (target, scores) => {
   scores.forEach((score) => {
     target.appendChild(createScore(score));
   });
+  target.style.border = target.hasChildNodes() ? '2px solid #000' : 'none';
 };
 
 export default updateDomWithScores;
