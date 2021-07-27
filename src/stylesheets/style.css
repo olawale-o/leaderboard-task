@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
 *,
 *::before,
 *::after {
@@ -12,11 +14,20 @@ html {
 
 body {
   font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 li {
   list-style: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: capitalize;
 }
 
@@ -28,18 +39,24 @@ li:nth-child(even) {
   background: #eee;
 }
 
+.btn {
+  background-color: #dc062d;
+  padding: 1rem 2.5rem;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 .nav {
   width: 100%;
-  max-width: 76rem;
-  padding: 2rem;
+  padding-top: 2rem;
+  margin: 0 auto 2rem;
 }
 
-h1 {
-  font-size: 5rem;
-}
-
-h2 {
-  font-size: 3rem;
+.nav h1 {
+  width: 55%;
+  margin: 0 auto;
 }
 
 .container {
@@ -49,15 +66,16 @@ h2 {
 
 .scores-section {
   width: 100%;
-  max-width: 96rem;
+  max-width: 60rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   grid-column-gap: 4rem;
 }
 
 .score-panel-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -66,6 +84,13 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.score-panel-header h2 {
-  margin-right: 2rem;
+.field {
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.input {
+  width: 100%;
+  padding: 1rem 0.35rem;
 }
