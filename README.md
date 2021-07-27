@@ -20,6 +20,17 @@
 - Type `git clone (copied link)` on the currently opened terminal or command prompt
 - Remember to change `(copied link)` to `git@github.com:olawale-o/leaderboard-task.git` which is the name of the repository
 
+# Install
+npm install
+
+# Usage
+npm start
+
+# Build
+npm build
+
+# Run tests
+npm test
 # Authors
 
 :bust_in_silhouette: Omoogun Olawale
