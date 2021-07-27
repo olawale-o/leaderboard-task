@@ -3,7 +3,7 @@
 > The leaderboard website displays scores submitted by different players. It also allows you to submit your score
 
 # Screenshot
-![screenshot](https://github.com/olawale-o/leaderboard-task/blob/consume-api/src/assets/screenshot.png?raw=true")
+![screenshot](https://github.com/olawale-o/leaderboard-task/blob/final-touch/src/assets/screenshot.png?raw=true")
 # Built With
 
 - HTML
