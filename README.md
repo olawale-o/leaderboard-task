@@ -21,16 +21,21 @@
 - Remember to change `(copied link)` to `git@github.com:olawale-o/leaderboard-task.git` which is the name of the repository
 
 # Install
+```bash
 npm install
-
+```
 # Usage
+```bash
 npm start
-
+```
 # Build
+```bash
 npm build
-
+```
 # Run tests
+```bash
 npm test
+```
 # Authors
 
 :bust_in_silhouette: Omoogun Olawale
