@@ -3,7 +3,7 @@
 > The leaderboard website displays scores submitted by different players. It also allows you to submit your score
 
 # Screenshot
-![screenshot](https://github.com/olawale-o/leaderboard-task/blob/consume-api/src/assets/screenshot.png?raw=true")
+![screenshot](https://github.com/olawale-o/leaderboard-task/blob/final-touch/src/assets/screenshot.png?raw=true")
 # Built With
 
 - HTML
@@ -20,6 +20,22 @@
 - Type `git clone (copied link)` on the currently opened terminal or command prompt
 - Remember to change `(copied link)` to `git@github.com:olawale-o/leaderboard-task.git` which is the name of the repository
 
+# Install
+```bash
+npm install
+```
+# Usage
+```bash
+npm start
+```
+# Build
+```bash
+npm build
+```
+# Run tests
+```bash
+npm test
+```
 # Authors
 
 :bust_in_silhouette: Omoogun Olawale
